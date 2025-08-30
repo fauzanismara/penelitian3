@@ -26,7 +26,7 @@ jobs:
     - name: Download Dataset (dari Google Drive)
       run: |
         mkdir -p dataset
-        gdown --folder https://drive.google.com/drive/folders/YOUR_FOLDER_ID --fuzzy -O dataset/
+        gdown --folder https://drive.google.com/drive/folders/dataset_Pewarnaan_Split/
 
     - name: Run Training
       run: |
